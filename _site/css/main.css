@@ -1,19 +1,25 @@
 *, *::before, *::after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { margin: 0; color: #262626; font-family: "Lato", sans-serif; font-size: 1.1em; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+body { margin: 0; color: #262626; font-family: "Lato", sans-serif; font-size: 1.1em; line-height: 1.6; -webkit-font-smoothing: antialiased; background-color: #f3fbeb; }
 
-h1, h2, h3 { font-weight: 600; color: #425469; font-family: "Muli", sans-serif; line-height: 1.5; }
+.construction-text { text-align: center; }
 
-h1 { color: #19CCAA; font-size: 2.5em; }
-h1 a, h1 a:visited { text-decoration: none; color: #19CCAA; }
+.warning-text { text-align: center; padding: 20 0 10 0px; }
+
+.video { text-align: center; padding: 10px; }
+
+h1, h2, h3 { font-weight: 600; color: #474D41; font-family: "Lato", sans-serif; line-height: 1.5; }
+
+h1 { color: #B1BCA5; font-size: 2.5em; }
+h1 a, h1 a:visited { text-decoration: none; color: #B1BCA5; }
 
 h2 { font-size: 2em; }
 
-a, a:visited { color: #425469; text-decoration: underline; font-weight: bold; }
+a, a:visited { color: #474D41; text-decoration: underline; font-weight: bold; }
 
-a:hover { color: #19CCAA; text-decoration: underline; }
+a:hover { color: #B1BCA5; text-decoration: underline; }
 
-header { background: #1D1425; padding: 0px 15px; text-align: center; margin: 50px 0 0; height: 50vh; display: flex; justify-content: center; align-items: center; }
+header { background: #65adce; padding: 0px 15px; text-align: center; margin: 50px 0 0; height: 50vh; display: flex; justify-content: center; align-items: center; }
 
 main { padding: 0 15px; max-width: 800px; margin: 0 auto; }
 
@@ -26,11 +32,11 @@ aside { position: fixed; top: 0; left: 0; background: #fff; width: 100%; z-index
 aside nav { float: left; max-width: 800px; margin: 0 auto; }
 aside nav ul { margin: 0; padding: 0; list-style: none; }
 aside nav ul li { float: left; position: relative; }
-aside nav ul li a { text-decoration: none; display: block; padding: 15px; font-family: 'Muli', sans-serif; line-height: 20px; margin-bottom: -1px; box-shadow: 0; }
-aside nav ul li a:hover, aside nav ul li a:active { background: #1D1425; text-decoration: none; color: #19CCAA; }
+aside nav ul li a { text-decoration: none; display: block; padding: 15px; font-family: 'Lato', sans-serif; line-height: 20px; margin-bottom: -1px; box-shadow: 0; }
+aside nav ul li a:hover, aside nav ul li a:active { background: #65adce; text-decoration: none; color: #B1BCA5; }
 aside nav:after { content: ''; display: table; clear: both; }
 
-footer { text-align: center; padding: 40px; }
+footer { position: absolute; bottom: 0; width: 100%; text-align: center; /*padding: 40px;*/ }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
