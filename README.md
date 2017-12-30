@@ -1,5 +1,5 @@
 # angiejwkim.github.io
 
-My personal website, where I put stuff I like. Big work-in-progress!
+Carving out a little space on the internet just for me ⚡️⚡️
 
-Built with Jekyll.
+A big work-in-progress! Built with Jekyll.
