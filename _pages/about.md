@@ -24,3 +24,6 @@ See what I'm up to on [Github](http://github.com/angiejwkim/)!
 
 For more of me, feel free to check out my [LinkedIn](https://www.linkedin.com/in/angiejwkim/) and find me lurking on [Twitter](http://twitter.com/angiejwkim).  
 You can also reach me at [angiejwkim@gmail.com](mailto:angiejwkim@gmail.com).
+
+
+[Go back home](/).
