@@ -1,0 +1,15 @@
+# Site Settings
+title: Angie Kim
+email: angiejwkim@gmail.com
+description: >
+  Angie Kim's personal website.
+baseurl: "/"
+url: "http://angiejwkim.github.io"
+twitter_username: angiejwkim
+github_username:  angiejwkim
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
