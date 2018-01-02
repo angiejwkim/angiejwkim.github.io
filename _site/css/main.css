@@ -2,9 +2,7 @@
 
 body { margin: 0; color: #262626; font-family: "Lato", sans-serif; font-size: 1.1em; line-height: 1.6; -webkit-font-smoothing: antialiased; background-color: #f3fbeb; }
 
-.construction-text { text-align: center; }
-
-.warning-text { text-align: center; padding: 20 0 10 0px; }
+#temp-message { text-align: center; }
 
 .video { text-align: center; padding: 10px; }
 
