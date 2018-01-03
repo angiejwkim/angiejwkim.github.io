@@ -4,18 +4,25 @@ body { margin: 0; color: #262626; font-family: "Lato", sans-serif; font-size: 1.
 
 .video { text-align: center; padding: 10px; }
 
-h1, h2, h3 { font-weight: 600; color: #474D41; font-family: "Lato", sans-serif; line-height: 1.5; }
+h1, h2 { font-weight: 600; color: #474D41; font-family: "Lato", sans-serif; line-height: 1.5; }
+
+h3 { font-weight: 300; }
 
 h1 { color: #B1BCA5; font-size: 2.5em; }
 h1 a, h1 a:visited { text-decoration: none; color: #B1BCA5; }
 
 h2 { font-size: 2em; }
 
-a, a:visited { color: #474D41; text-decoration: underline; font-weight: bold; }
+a, a:visited { color: #474D41; text-decoration: underline; }
 
 a:hover { color: #B1BCA5; text-decoration: underline; }
 
-header { background: #65adce; padding: 0px 15px; text-align: center; margin: 50px 0 0; height: 50vh; display: flex; justify-content: center; align-items: center; }
+header { overflow: auto; }
+header #site-title { float: left; width: 20%; padding: 20px 0 0 35px; }
+header #nav-bar { float: right; width: 80%; }
+header a { text-decoration: none; }
+header ul { list-style: none; padding-right: 35px; text-align: right; }
+header ul li { display: inline; padding-left: 15px; }
 
 main { padding: 0 15px; max-width: 850px; margin: 0 auto; }
 
@@ -23,17 +30,9 @@ time { color: #898989; }
 
 .container { max-width: 850px; margin: 0 auto; }
 
-nav { position: fixed; top: 0; left: 0; float: left; list-style: none; margin: 0; padding: 0; }
-
-aside { position: fixed; top: 0; left: 0; background: #fff; width: 100%; z-index: 2; border-bottom: 1px solid white; box-shadow: 0px 1px 1px RGBA(4, 25, 54, 0.1); }
-aside nav { float: left; max-width: 800px; margin: 0 auto; }
-aside nav ul { margin: 0; padding: 0; list-style: none; }
-aside nav ul li { float: left; position: relative; }
-aside nav ul li a { text-decoration: none; display: block; padding: 15px; font-family: 'Lato', sans-serif; line-height: 20px; margin-bottom: -1px; box-shadow: 0; }
-aside nav ul li a:hover, aside nav ul li a:active { background: #65adce; text-decoration: none; color: #B1BCA5; }
-aside nav:after { content: ''; display: table; clear: both; }
-
-footer { position: absolute; bottom: 0; width: 100%; text-align: center; /*padding: 40px;*/ }
+footer { position: absolute; font-size: 0.75em; bottom: 0; left: 0; right: 0; width: 100%; text-align: center; padding-bottom: 7px; }
+footer ul { list-style: none; }
+footer ul li { display: inline; }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }

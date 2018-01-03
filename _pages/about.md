@@ -1,10 +1,10 @@
 ---
-layout: construction
+layout: page
 title: About | Angie Kim
-permalink: /about/
+page-name: About Me
+permalink: /about-me/
 ---
 
-# Hi, I'm **Angie**!  
 I was born in Seoul, Korea and grew up in Vancouver, Canada.  
 I'm now in Providence, Rhode Island, where I study computer science at [Brown University](http://cs.brown.edu/).  
 I'm particularly interested in security and data science.
@@ -18,7 +18,7 @@ In my spare time, you can find me doing a crossword, running, or watching Jeopar
 I'm always looking for recommendations for books/articles to read and new coffee shops to love!
 
 
-Over the break, I'm working on this website and tinkering with MATLAB in preparation for TAing [CS4](cs.brown.edu/courses/cs004/).  
+Over winter break, I'm working on this website and tinkering with MATLAB in preparation for TAing [CS4](cs.brown.edu/courses/cs004/).  
 See what I'm up to on [Github](http://github.com/angiejwkim/)!
 
 
