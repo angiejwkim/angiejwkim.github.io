@@ -2,16 +2,23 @@
 
 body { margin: 0; color: #262626; font-family: "Lato", sans-serif; font-size: 1.1em; line-height: 1.6; -webkit-font-smoothing: antialiased; background-color: #f3fbeb; }
 
-.video { text-align: center; padding: 10px; }
+#greeting { padding-top: 30px; padding-bottom: 10px; text-align: center; }
+#greeting h1, #greeting h2 { line-height: 0.5; }
+
+table { width: 850px; }
+table #im { padding-right: 30px; text-align: right; width: 30%; }
+table #info { padding-left: 10px; text-align: left; width: 70%; }
+table td { vertical-align: top; }
+table h1 { line-height: 0.5; }
 
 h1, h2 { font-weight: 600; color: #474D41; font-family: "Lato", sans-serif; line-height: 1.5; }
 
 h3 { font-weight: 300; }
 
-h1 { color: #B1BCA5; font-size: 2.5em; }
+h1 { color: #B1BCA5; font-size: 4em; }
 h1 a, h1 a:visited { text-decoration: none; color: #B1BCA5; }
 
-h2 { font-size: 2em; }
+h2 { font-size: 1.8em; }
 
 a, a:visited { color: #474D41; text-decoration: underline; }
 
@@ -29,6 +36,8 @@ main { padding: 0 15px; max-width: 850px; margin: 0 auto; }
 time { color: #898989; }
 
 .container { max-width: 850px; margin: 0 auto; }
+
+.video { text-align: center; padding: 10px; }
 
 footer { position: absolute; font-size: 0.75em; bottom: 0; left: 0; right: 0; width: 100%; text-align: center; padding-bottom: 7px; }
 footer ul { list-style: none; }

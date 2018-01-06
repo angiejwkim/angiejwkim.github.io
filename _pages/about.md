@@ -2,6 +2,7 @@
 layout: page
 title: About | Angie Kim
 page-name: About Me
+show-nav: true
 permalink: /about-me/
 ---
 
@@ -18,7 +19,7 @@ In my spare time, you can find me doing a crossword, running, or watching Jeopar
 I'm always looking for recommendations for books/articles to read and new coffee shops to love!
 
 
-Over winter break, I'm working on this website and tinkering with MATLAB in preparation for TAing [CS4](cs.brown.edu/courses/cs004/).  
+Over winter break, I'm working on this website and tinkering with MATLAB in preparation for TAing [CS4](http://cs.brown.edu/courses/cs004/).  
 See what I'm up to on [Github](http://github.com/angiejwkim/)!
 
 
