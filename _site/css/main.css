@@ -24,13 +24,43 @@ a, a:visited { color: #474D41; text-decoration: underline; }
 
 a:hover { color: #B1BCA5; text-decoration: underline; }
 
-header { overflow: auto; }
-header #site-title { float: left; width: 20%; padding: 20px 0 0 35px; }
-header #nav-bar { float: right; width: 80%; }
+header li { list-style: none; }
 header a { text-decoration: none; }
-header ul { list-style: none; padding-right: 35px; text-align: right; }
-header ul li { display: inline; padding-left: 15px; }
+header .nav-bar { /* makes the parent container for the entire navigation bar */ display: flex; justify-content: space-between; align-items: baseline; padding-left: 0; }
+header .title { /* creates the child box for the title */ padding-left: 1.4em; }
+header .link-bar { /* creates the child box that holds the navigation's links, also creates parent container for all links */ display: flex; justify-content: space-around; flex-grow: 1; padding: 0 1em 0 0; }
+header .link-bar .link { padding-right: 1.4em; }
 
+/*
+
+	overflow: auto;
+
+	#site-title {
+		float: left;
+		width: 20%;
+		padding: 20px 0 0 35px;
+	}
+
+	#nav-bar {
+		float: right;
+		width: 80%;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+
+	ul {
+		list-style: none;
+		padding-right: 35px;
+		text-align: right;
+		li {
+			display: inline;
+			padding-left: 15px;
+		}
+	}
+}
+*/
 main { padding: 0 15px; max-width: 850px; margin: 0 auto; }
 
 time { color: #898989; }

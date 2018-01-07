@@ -83,7 +83,47 @@ a:hover {
 }
 
 // Site Title and Navigation Bar
+
 header {
+	li {
+		list-style: none;
+	}
+
+	a {
+			text-decoration: none;
+	}
+
+	.nav-bar {
+		/* makes the parent container for the entire navigation bar */
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		padding-left: 0;
+
+	}
+
+	.title {
+		/* creates the child box for the title */
+		padding-left: 1.4em;
+	}
+
+	.link-bar {
+		/* creates the child box that holds the navigation's links,
+		   also creates parent container for all links */
+
+		display: flex;
+		justify-content: space-around;
+		flex-grow: 1;
+		padding: 0 1em 0 0;
+
+		.link {
+			padding-right: 1.4em;
+		}
+
+	}
+}
+
+/*
 
 	overflow: auto;
 
@@ -112,6 +152,7 @@ header {
 		}
 	}
 }
+*/
 
 main {
 	padding: 0 15px;

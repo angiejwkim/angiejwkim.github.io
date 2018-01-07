@@ -1,14 +1,24 @@
 <header>
-	<div id="site-title">
-		<a href="/">[title image placeholder]</a>
-	</div>
-	<div id="nav-bar">
-		<ul>
-			<li><a href="/">HOME</a></li>
-			{% for page in site.pages %} {% if page.show-nav == true %}
-			<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.page-name | upcase }}</a></li>
-			{% endif %} {% endfor %}
-			<li><a href="{{ "/blog" | prepend: site.baseurl }}">BLOG</a></li>
-		</ul>
-	</div>
+	<ul class="nav-bar">
+
+		<li>
+			<ul class="title">
+				<li><a href="/">[title image placeholder]</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<ul class="link-bar">
+				<li class="link"><a href="/">HOME</a></li>
+
+				<!-- loops through the pages folder to add pages for which the show-nav property is equal to true -->
+				{% for page in site.pages %} {% if page.show-nav == true %}
+				<li class="link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.page-name | upcase }}</a></li>
+				{% endif %} {% endfor %}
+
+				<li class="link"><a href="{{ "/blog" | prepend: site.baseurl }}">BLOG</a></li>
+
+			</ul>
+		</li>
+	</ul>
 </header>
