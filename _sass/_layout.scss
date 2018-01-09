@@ -1,3 +1,7 @@
+html,body {
+	height: 100%;
+}
+
 body {
 	margin: 0;
 	color: $font-color;
@@ -7,7 +11,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	background-color: #f3fbeb;
 	position: relative;
-	min-height: 100%
 }
 
 // Home Page Material

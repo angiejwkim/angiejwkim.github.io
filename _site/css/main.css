@@ -1,6 +1,8 @@
 *, *::before, *::after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-body { margin: 0; color: #262626; font-family: "Lato", sans-serif; font-size: 1.1em; line-height: 1.6; -webkit-font-smoothing: antialiased; background-color: #f3fbeb; position: relative; min-height: 100%; }
+html, body { height: 100%; }
+
+body { margin: 0; color: #262626; font-family: "Lato", sans-serif; font-size: 1.1em; line-height: 1.6; -webkit-font-smoothing: antialiased; background-color: #f3fbeb; position: relative; }
 
 .index-layout { display: grid; grid-template-rows: 0.75fr 1fr; grid-template-columns: 1fr 2.5fr; margin-top: 4em; grid-column-gap: 2em; }
 .index-layout h1, .index-layout h2 { line-height: 0.5; }
