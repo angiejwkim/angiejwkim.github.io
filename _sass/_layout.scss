@@ -1,4 +1,5 @@
 html, body {
+	/* Positions footer at bottom of content or page */
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -14,6 +15,7 @@ body {
 }
 
 .wrapper {
+	/* Positions footer at bottom of content or page */
 	min-height:100%;
    	position:relative;
 }
