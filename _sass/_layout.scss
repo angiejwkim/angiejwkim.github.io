@@ -1,16 +1,23 @@
-html,body {
+html, body {
+	/* Positions footer at bottom of content or page */
+	margin: 0;
+	padding: 0;
 	height: 100%;
 }
 
 body {
-	margin: 0;
 	color: $font-color;
 	font-family: $font-style;
 	font-size: 1.1em;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
 	background-color: #f3fbeb;
-	position: relative;
+}
+
+.wrapper {
+	/* Positions footer at bottom of content or page */
+	min-height:100%;
+   	position:relative;
 }
 
 // Home Page Material
@@ -91,6 +98,10 @@ a:hover {
 // Site Title and Navigation Bar
 
 header {
+	/* Positions footer at bottom of content or page */
+	padding: 1em 0;
+	ul { margin: 0; }
+
 	li {
 		list-style: none;
 	}
@@ -132,8 +143,10 @@ header {
 main {
 	padding: 0 15px;
 	max-width: $content-width;
+
+	/* Positions footer at bottom of content or page */
 	margin: auto;
-	margin-bottom: 3em;
+	padding-bottom: $footer-height; 
 }
 
 time {
@@ -155,11 +168,12 @@ time {
 footer {
 	display: flex;
 	justify-content: center;
-
+	
+	/* Positions footer at bottom of content or page */
 	position: absolute;
 	bottom: 0;
-	left: 0;
 	width: 100%;
+	height: $footer-height; 
 
 	height: 3em;
 	font-size: 1em;
