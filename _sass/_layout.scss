@@ -6,38 +6,41 @@ body {
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
 	background-color: #f3fbeb;
+	position: relative;
+	min-height: 100%
 }
 
 // Home Page Material
 
-#greeting {
-	padding-top: 30px;
-	padding-bottom: 10px;
-	text-align: center;
-	h1, 
-	h2 {
+.index-layout {
+	display: grid;
+	grid-template-rows: 0.75fr 1fr;
+	grid-template-columns: 1fr 2.5fr;
+	margin-top: 4em;
+	grid-column-gap: 2em;
+
+	h1, h2 {
 		line-height: 0.5;
 	}
+
 }
 
-table {
-	width: $content-width;
-	#im {
-		padding-right: 30px;
-		text-align: right;
-		width: 30%;
-	}
-	#info {
-		padding-left: 10px;
-		text-align: left;
-		width: 70%;
-	}
-	td {
-		vertical-align: top;
-	}
-	h1 {
-		line-height: 0.5;
-	}
+#greeting {
+	grid-column: 1 / span 2;
+	text-align: center;
+}
+
+#em-word {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+
+	line-height: 0.5;
+}
+
+#desc {
+	text-align: left;
+	margin-bottom: 4em;
 }
 
 
@@ -126,7 +129,8 @@ header {
 main {
 	padding: 0 15px;
 	max-width: $content-width;
-	margin: 0 auto;
+	margin: auto;
+	margin-bottom: 3em;
 }
 
 time {
@@ -146,18 +150,28 @@ time {
 // Footer
 
 footer {
+	display: flex;
+	justify-content: center;
+
 	position: absolute;
-	font-size: 0.75em;
 	bottom: 0;
 	left: 0;
-	right: 0;
 	width: 100%;
-	text-align: center;
-	padding-bottom: 7px;
+
+	height: 3em;
+	font-size: 1em;
+
+	a {
+		text-decoration: none;
+	}
+
 	ul {
+		display: inline;
 		list-style: none;
+		padding: 0;
 		li {
 			display: inline;
+			padding: 5px;
 		}
 	}
 }

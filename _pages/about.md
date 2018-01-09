@@ -1,11 +1,12 @@
 ---
 layout: page
-title: About | Angie Kim
+title: About
 page-name: About Me
 show-nav: true
 permalink: /about-me/
 ---
 
+<h1>Hi, I'm Angie!</h1>
 I was born in Seoul, Korea and grew up in Vancouver, Canada.  
 I'm now in Providence, Rhode Island, where I study computer science at [Brown University](http://cs.brown.edu/).  
 I'm particularly interested in security and data science.
@@ -25,6 +26,5 @@ See what I'm up to on [Github](http://github.com/angiejwkim/)!
 
 For more of me, feel free to check out my [LinkedIn](https://www.linkedin.com/in/angiejwkim/) and find me lurking on [Twitter](http://twitter.com/angiejwkim).  
 You can also reach me at [angiejwkim@gmail.com](mailto:angiejwkim@gmail.com).
-
 
 [Go back home](/).
