@@ -11,8 +11,9 @@ body {
 	font-size: 1.1em;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
-	background-color: #f3fbeb;
+	background-color: #121527;
 }
+
 
 .wrapper {
 	/* Positions footer at bottom of content or page */
@@ -22,37 +23,15 @@ body {
 
 // Home Page Material
 
-.index-layout {
-	display: grid;
-	grid-template-rows: 0.75fr 1fr;
-	grid-template-columns: 1fr 2.5fr;
-	margin-top: 4em;
-	grid-column-gap: 2em;
+#landing {
+	height: 70vh;
+	text-align: center;
+	padding-top: 3em;
 
 	h1, h2 {
 		line-height: 0.5;
 	}
-
 }
-
-#greeting {
-	grid-column: 1 / span 2;
-	text-align: center;
-}
-
-#em-word {
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-start;
-
-	line-height: 0.5;
-}
-
-#desc {
-	text-align: left;
-	margin-bottom: 4em;
-}
-
 
 // Heading Styles
 
@@ -69,12 +48,10 @@ h3 {
 }
 
 h1 {
-	color: $main;
 	font-size: 4em;
 	a,
 	a:visited {
 		text-decoration: none;
-		color: $main;
 	}
 }
 
@@ -100,6 +77,7 @@ a:hover {
 header {
 	/* Positions footer at bottom of content or page */
 	padding: 1em 0;
+
 	ul { margin: 0; }
 
 	li {
@@ -121,13 +99,16 @@ header {
 
 	.title {
 		/* creates the child box for the title */
+		display: flex;
 		padding-left: 1.4em;
+			#logo {
+				align-items: left;
+			}
 	}
 
 	.link-bar {
 		/* creates the child box that holds the navigation's links,
 		   also creates parent container for all links */
-
 		display: flex;
 		justify-content: space-around;
 		flex-grow: 1;
@@ -153,9 +134,15 @@ time {
 	color: #898989;
 }
 
-.container {
+#container {
+	display: grid;
+	align-self: center;
+	margin-top: 20em;
+	padding: 3em;
+	text-align: center;
 	max-width: $content-width;
 	margin: 0 auto;
+	border: 2px solid white;
 }
 
 .video {
@@ -177,6 +164,10 @@ footer {
 
 	height: 3em;
 	font-size: 1em;
+
+	.fa {
+  	color: #fcffff;
+	}
 
 	a {
 		text-decoration: none;
