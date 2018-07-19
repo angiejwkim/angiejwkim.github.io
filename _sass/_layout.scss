@@ -14,23 +14,34 @@ body {
 	background-color: #121527;
 }
 
+.feature {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 
 .wrapper {
 	/* Positions footer at bottom of content or page */
+	display: flex;
 	min-height:100%;
-   	position:relative;
+	width: 100%;
+   	position: relative;
+   	justify-content: center;
 }
 
-// Home Page Material
-
-#landing {
-	height: 70vh;
-	text-align: center;
-	padding-top: 3em;
-
-	h1, h2 {
-		line-height: 0.5;
-	}
+.content-container {
+	/* Serves as the box around all page content */
+	display: flex;
+	border: 2px solid white;
+	padding: 0 2em 0 2em;
+	max-width: $content-width;
+	align-items: center;
+	justify-content: center;
+	width: $content-width;
+	// margin: 2em 5em $footer-height 5em;
+	margin-bottom: $footer-height;
+	margin-top: 2em;
 }
 
 // Heading Styles
@@ -40,7 +51,7 @@ h2 {
 	font-weight: 600;
 	color: $heading-font-color;
 	font-family: $heading-font;
-	line-height: 1.5;
+	line-height: 1.25;
 }
 
 h3 {
