@@ -4,12 +4,13 @@ html, body { /* Positions footer at bottom of content or page */ margin: 0; padd
 
 body { color: #fcffff; font-family: "Roboto Mono", sans-serif; font-size: 1.1em; line-height: 1.6; -webkit-font-smoothing: antialiased; background-color: #121527; }
 
-.wrapper { /* Positions footer at bottom of content or page */ min-height: 100%; position: relative; }
+.feature { display: flex; justify-content: center; align-items: center; flex-direction: column; }
 
-#landing { height: 70vh; text-align: center; padding-top: 3em; }
-#landing h1, #landing h2 { line-height: 0.5; }
+.wrapper { /* Positions footer at bottom of content or page */ display: flex; min-height: 100%; width: 100%; position: relative; justify-content: center; }
 
-h1, h2 { font-weight: 600; color: #fcffff; font-family: "Roboto Mono", sans-serif; line-height: 1.5; }
+.content-container { /* Serves as the box around all page content */ display: flex; border: 2px solid white; padding: 0 2em 0 2em; max-width: 850px; align-items: center; justify-content: center; width: 850px; margin-bottom: 60px; margin-top: 2em; }
+
+h1, h2 { font-weight: 600; color: #fcffff; font-family: "Roboto Mono", sans-serif; line-height: 1.25; }
 
 h3 { font-weight: 300; }
 
