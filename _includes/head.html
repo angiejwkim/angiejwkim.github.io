@@ -3,12 +3,14 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	{% include favicon.html %}
+
 	<title>{% if page.title %}{{ page.title }} | Angie Kim{% else %}{{ site.title }}{% endif %}</title>
 
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type='text/css'>
-
+	
 	<script src="https://use.fontawesome.com/ffb7811af7.js"></script>
 
 </head> 
