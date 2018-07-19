@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Goals | Angie Kim
+title: Goals
 page-name: My Impossible List
-show-nav: false
 permalink: /goals/
 ---
 
