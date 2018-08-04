@@ -17,6 +17,6 @@ This summer, I'm working in Brown's [Biomedical AI Lab](https://www.brown.edu/Re
 
 In my spare time, you can find me doing a crossword, half marathon training, or experimenting in the kitchen. I'm always looking for recommendations for books/articles to read, passionate individuals to connect with, and new coffee shops to love!
 
-For more of me, feel free to check out my [LinkedIn](https://www.linkedin.com/in/angiejwkim/) and find me lurking on [Twitter](http://twitter.com/angiejwkim). You can also reach me at [angiejwkim@gmail.com](mailto:angiejwkim@gmail.com).
+For more of me, feel free to check out my [LinkedIn](https://www.linkedin.com/in/angiejwkim/) and find me lurking on [Twitter](http://twitter.com/angiejwkim). You can also reach me at angiejwkim at gmail dot com!
 
 [Go back home](/).
