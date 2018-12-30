@@ -4,6 +4,9 @@ html, body { /* Positions footer at bottom of content or page */ margin: 0; padd
 
 body { color: #fcffff; font-family: "Roboto Mono", sans-serif; font-size: 1.1em; line-height: 1.6; -webkit-font-smoothing: antialiased; background-color: #121527; }
 
+.proj-img { text-align: center; }
+.proj-img img { display: inline-block; width: calc(0.75 * 850px); }
+
 .feature { display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; }
 
 .wrapper { /* Positions footer at bottom of content or page */ display: flex; min-height: 100%; width: 100%; position: relative; justify-content: center; }
@@ -12,12 +15,12 @@ body { color: #fcffff; font-family: "Roboto Mono", sans-serif; font-size: 1.1em;
 
 h1, h2 { font-weight: 600; color: #fcffff; font-family: "Roboto Mono", sans-serif; line-height: 1.25; }
 
-h3 { font-weight: 300; }
-
-h1 { font-size: 4em; }
+h1 { font-size: 2.2em; }
 h1 a, h1 a:visited { text-decoration: none; }
 
-h2 { font-size: 1.8em; }
+h2 { font-size: 1.6em; }
+
+h3 { font-weight: 300; }
 
 a, a:visited { color: #fcffff; text-decoration: underline; }
 
