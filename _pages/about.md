@@ -7,15 +7,17 @@ permalink: /about/
 
 Hi, I'm Angie! 👋
 
-I was born in Seoul and immigrated to Vancouver at the age of 2. I'm now at [Brown University](http://brown.edu/), where I study applied math and computer science. My academic interests lie mainly in data science, machine learning, and security.
+I was born in Seoul and immigrated to Vancouver at the age of 2. I'm now a junior at [Brown University](http://brown.edu/), where I study applied math (with a hint of computer science). My academic interests lie broadly in dynamical systems, climate models and policy, and machine learning.
 
-I'm also into politics: I'll be headed to DC this November with the [Climate and Development Lab](http://www.climatedevlab.brown.edu/) to present research in environmental policy, and I'm currently Senior Managing Editor at the [Brown Political Review](http://www.brownpoliticalreview.org/category/mag/). 
+Outside of my coursework, I do research as part of Professor Timmons Roberts' [Climate and Development Lab](http://www.climatedevlab.brown.edu/), I've been a teaching assistant for four courses, and I lead weekly campus tours. I spent 5 semesters on the Editorial Board of the [Brown Political Review](http://www.brownpoliticalreview.org/category/mag/), the last 2 of which I served as Senior Managing Editor.
 
-Though I don't have clear career plans, I hope to end up somewhere I can leverage both my technical and people skills to provide value for individuals and organizations. As an officer for [CS for Social Change](http://cssc.cs.brown.edu/) at Brown, I'm learning more about how I can make this happen.
+I came to Brown thinking I was never going to take a math class again, did my fair share of exploring and hopping around departments for my first two years, and I finally feel a little settled. Not only that, but I've also found that what I've been interested over the course of my life - computers, math, climate, and policy - have reemerged to become big parts of who I am today.
 
-This past summer, I was working in Brown's [Biomedical AI Lab](https://www.brown.edu/Research/AI/research/) in partnership with the Rhode Island Hospital, using deep learning to create a database for gene fusion literature. Next summer, I'll be working at BlackRock in New York as a software engineering intern in the Aladdin Product Group. 
+Though I don't have clear career plans, I hope to end up in a role where I can leverage my quantitative background for social impact. I'm currently an officer for [CS for Social Change](http://cssc.cs.brown.edu/) at Brown, where I'm learning more about how I can do this. 
 
-In my spare time, you can find me doing a crossword, half marathon training, working on a side project (see what I'm up to on [Github](http://github.com/angiejwkim/)!), or experimenting in the kitchen. I'm always looking for recommendations for books/articles to read, passionate individuals to connect with, and new coffee shops to love. 
+Next summer, I'll be working at [BlackRock](http://blackrock.com/) in New York as a software engineering intern in the Aladdin Product Group — I'm excited to hone my technical skills through this experience. 
+
+In my spare time, you can find me doing a crossword, half marathon training, working on projects ([which you can learn more about here](../projects)!), or experimenting in the kitchen. I'm always looking for recommendations for books/articles to read, passionate individuals to connect with, and new coffee shops to love. 
 
 For more of me, feel free to check out my [LinkedIn](https://www.linkedin.com/in/angiejwkim/) and find me lurking on [Twitter](http://twitter.com/angiejwkim). You can also reach me at angiejwkim at gmail dot com!
 
