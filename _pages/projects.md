@@ -8,7 +8,7 @@ permalink: /projects/
 ## current
 
 ### Dear Blueno Sentiment Analysis
-[Dear Blueno](https://www.facebook.com/dearblueno/) is Facebook page for the Brown University community to post anonymous comments and requests for advice. The page's content is often characterized as divisive, and even toxic. I wish to explore the validity of the page's negative reputation by conducting sentiment analysis using spaCy.
+[Dear Blueno](https://www.facebook.com/dearblueno/) is a Facebook page for the Brown University community to post anonymous comments and requests for advice. The page's content is often characterized as divisive, and even toxic. I wish to explore the validity of the page's negative reputation by conducting sentiment analysis using spaCy.
 
 ## past projects
 
