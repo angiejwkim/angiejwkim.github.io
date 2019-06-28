@@ -5,8 +5,6 @@ page-name: projects
 show-nav: true
 permalink: /projects/
 ---
-# what's been keeping me busy?
-
 ## current
 
 ### Honors Thesis
