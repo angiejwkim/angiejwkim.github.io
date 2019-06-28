@@ -8,7 +8,7 @@ permalink: /projects/
 ## current
 
 ### Honors Thesis
-As an honors candidate, I'm working on a senior thesis with Professor [Stephen Bach](http://stephenbach.net/). The project is still in its early stages, adn broadly, I hope to explore generalization bounds on neural networks. I'm looking forward to having ownership over a research project and seeing it through to completion!
+As an honors candidate, I'm working on a senior thesis with Professor [Stephen Bach](http://stephenbach.net/). The project is still in its early stages, and broadly, I hope to explore generalization bounds on neural networks. I'm looking forward to having ownership over a research project and seeing it through to completion!
 
 ### Dear Blueno Sentiment Analysis
 [Dear Blueno](https://www.facebook.com/dearblueno/) is a Facebook page for the Brown University community to post anonymous comments and requests for advice. The page's content is often characterized as divisive, and even toxic. I wish to explore the validity of the page's negative reputation by conducting sentiment analysis using spaCy.
