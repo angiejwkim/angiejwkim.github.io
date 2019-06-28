@@ -2,7 +2,7 @@
 
 html, body { /* Positions footer at bottom of content or page */ margin: 0; padding: 0; height: 100%; }
 
-body { color: #fcffff; font-family: "Roboto Mono", sans-serif; font-size: 1.1em; line-height: 1.6; -webkit-font-smoothing: antialiased; background-color: #121527; }
+body { color: #fcffff; font-family: "Roboto Mono", sans-serif; font-weight: 400; font-style: normal; font-size: 1.1em; line-height: 1.6; -webkit-font-smoothing: antialiased; background-color: #121527; }
 
 .proj-img { text-align: center; }
 .proj-img img { display: inline-block; width: calc(0.75 * 850px); }
