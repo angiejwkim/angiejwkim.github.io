@@ -15,6 +15,11 @@ As an honors candidate, I'm working on a senior thesis with Professor [Stephen B
 
 ## past projects
 
+### E-Communications Dashboard
+During my internship at [BlackRock](http://blackrock.com/) I worked on the Regulatory Technology team within the Aladdin Product Group. I was tasked with designing and developing a search interface for internal use. Through this experience, I learned about full-stack development on an Agile team.
+
+**Main takeaways**: Got experience with front-end development, created a full-stack application, learned about deployment on Kubernetes. Worked with Angular, Spring, Elasticsearch, and Kubernetes.
+
 ### Palo Alto Electric Vehicle Charging (May 2019)
 For our final project for Big Data (ECON 1660), my group investigated electric vehicle charging station demand, using Palo Alto as an idealized setting to analyze demand in a world where EVs are highly adopted. My role specifically entailed estimating parameters, working on simulations, and helping write and editing our article. We published our results on Medium – check out our article [here](https://medium.com/@angiejwkim/electric-vehicle-charging-policies-effect-on-charging-demand-41b477e74128)!
 
