@@ -16,7 +16,7 @@ As an honors candidate, I'm working on a senior thesis with Professor [Stephen B
 ## past projects
 
 ### E-Communications Dashboard
-During my internship at [BlackRock](http://blackrock.com/) I worked on the Regulatory Technology team within the Aladdin Product Group. I was tasked with designing and developing a search interface for internal use. Through this experience, I learned about full-stack development on an Agile team.
+During my internship at [BlackRock](http://blackrock.com/) I worked on the Regulatory Technology team within the Aladdin Product Group. I was tasked with designing and developing a search interface for internal use. Through this experience, I learned about full-stack development on an Agile team, and got to spend some good time with Git.
 
 **Main takeaways**: Got experience with front-end development, created a full-stack application, learned about deployment on Kubernetes. Worked with Angular, Spring, Elasticsearch, and Kubernetes.
 
